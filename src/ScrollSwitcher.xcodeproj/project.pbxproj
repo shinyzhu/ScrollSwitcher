@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7669605514B7E40000F85F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7669605414B7E40000F85F59 /* UIKit.framework */; };
+		7669605714B7E40000F85F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7669605614B7E40000F85F59 /* Foundation.framework */; };
+		7669605914B7E40000F85F59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7669605814B7E40000F85F59 /* CoreGraphics.framework */; };
+		7669605F14B7E40000F85F59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7669605D14B7E40000F85F59 /* InfoPlist.strings */; };
+		7669606114B7E40000F85F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669606014B7E40000F85F59 /* main.m */; };
+		7669606514B7E40000F85F59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669606414B7E40000F85F59 /* AppDelegate.m */; };
+		7669606814B7E40000F85F59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669606714B7E40000F85F59 /* ViewController.m */; };
+		7669606B14B7E40000F85F59 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7669606914B7E40000F85F59 /* ViewController.xib */; };
+		7669608014B913BD00F85F59 /* temp_bg_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 7669607F14B913BD00F85F59 /* temp_bg_mask.png */; };
+		7669608514B9141100F85F59 /* NumberSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669608414B9141100F85F59 /* NumberSwitcher.m */; };
+		7669609414B9A62500F85F59 /* temp_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7669609314B9A62400F85F59 /* temp_bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7669605014B7E40000F85F59 /* ScrollSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7669605414B7E40000F85F59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7669605614B7E40000F85F59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7669605814B7E40000F85F59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7669605C14B7E40000F85F59 /* ScrollSwitcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollSwitcher-Info.plist"; sourceTree = "<group>"; };
+		7669605E14B7E40000F85F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7669606014B7E40000F85F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7669606214B7E40000F85F59 /* ScrollSwitcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		7669606314B7E40000F85F59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7669606414B7E40000F85F59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7669606614B7E40000F85F59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7669606714B7E40000F85F59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7669606A14B7E40000F85F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7669607F14B913BD00F85F59 /* temp_bg_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp_bg_mask.png; sourceTree = "<group>"; };
+		7669608314B9141100F85F59 /* NumberSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberSwitcher.h; sourceTree = "<group>"; };
+		7669608414B9141100F85F59 /* NumberSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberSwitcher.m; sourceTree = "<group>"; };
+		7669609314B9A62400F85F59 /* temp_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp_bg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7669604D14B7E40000F85F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7669605514B7E40000F85F59 /* UIKit.framework in Frameworks */,
+				7669605714B7E40000F85F59 /* Foundation.framework in Frameworks */,
+				7669605914B7E40000F85F59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7669604514B7E40000F85F59 = {
+			isa = PBXGroup;
+			children = (
+				7669605A14B7E40000F85F59 /* ScrollSwitcher */,
+				7669605314B7E40000F85F59 /* Frameworks */,
+				7669605114B7E40000F85F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7669605114B7E40000F85F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7669605014B7E40000F85F59 /* ScrollSwitcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7669605314B7E40000F85F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7669605414B7E40000F85F59 /* UIKit.framework */,
+				7669605614B7E40000F85F59 /* Foundation.framework */,
+				7669605814B7E40000F85F59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7669605A14B7E40000F85F59 /* ScrollSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				7669605B14B7E40000F85F59 /* Supporting Files */,
+				7669606314B7E40000F85F59 /* AppDelegate.h */,
+				7669606414B7E40000F85F59 /* AppDelegate.m */,
+				7669606614B7E40000F85F59 /* ViewController.h */,
+				7669606714B7E40000F85F59 /* ViewController.m */,
+				7669606914B7E40000F85F59 /* ViewController.xib */,
+				7669608314B9141100F85F59 /* NumberSwitcher.h */,
+				7669608414B9141100F85F59 /* NumberSwitcher.m */,
+				7669609314B9A62400F85F59 /* temp_bg.png */,
+				7669607F14B913BD00F85F59 /* temp_bg_mask.png */,
+			);
+			path = ScrollSwitcher;
+			sourceTree = "<group>";
+		};
+		7669605B14B7E40000F85F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7669605C14B7E40000F85F59 /* ScrollSwitcher-Info.plist */,
+				7669605D14B7E40000F85F59 /* InfoPlist.strings */,
+				7669606014B7E40000F85F59 /* main.m */,
+				7669606214B7E40000F85F59 /* ScrollSwitcher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7669604F14B7E40000F85F59 /* ScrollSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7669606E14B7E40000F85F59 /* Build configuration list for PBXNativeTarget "ScrollSwitcher" */;
+			buildPhases = (
+				7669604C14B7E40000F85F59 /* Sources */,
+				7669604D14B7E40000F85F59 /* Frameworks */,
+				7669604E14B7E40000F85F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollSwitcher;
+			productName = ScrollSwitcher;
+			productReference = 7669605014B7E40000F85F59 /* ScrollSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7669604714B7E40000F85F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Pluxs;
+			};
+			buildConfigurationList = 7669604A14B7E40000F85F59 /* Build configuration list for PBXProject "ScrollSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7669604514B7E40000F85F59;
+			productRefGroup = 7669605114B7E40000F85F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7669604F14B7E40000F85F59 /* ScrollSwitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7669604E14B7E40000F85F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7669605F14B7E40000F85F59 /* InfoPlist.strings in Resources */,
+				7669606B14B7E40000F85F59 /* ViewController.xib in Resources */,
+				7669608014B913BD00F85F59 /* temp_bg_mask.png in Resources */,
+				7669609414B9A62500F85F59 /* temp_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7669604C14B7E40000F85F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7669606114B7E40000F85F59 /* main.m in Sources */,
+				7669606514B7E40000F85F59 /* AppDelegate.m in Sources */,
+				7669606814B7E40000F85F59 /* ViewController.m in Sources */,
+				7669608514B9141100F85F59 /* NumberSwitcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7669605D14B7E40000F85F59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7669605E14B7E40000F85F59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7669606914B7E40000F85F59 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7669606A14B7E40000F85F59 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7669606C14B7E40000F85F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7669606D14B7E40000F85F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7669606F14B7E40000F85F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollSwitcher/ScrollSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "ScrollSwitcher/ScrollSwitcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7669607014B7E40000F85F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollSwitcher/ScrollSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "ScrollSwitcher/ScrollSwitcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7669604A14B7E40000F85F59 /* Build configuration list for PBXProject "ScrollSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7669606C14B7E40000F85F59 /* Debug */,
+				7669606D14B7E40000F85F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7669606E14B7E40000F85F59 /* Build configuration list for PBXNativeTarget "ScrollSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7669606F14B7E40000F85F59 /* Debug */,
+				7669607014B7E40000F85F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7669604714B7E40000F85F59 /* Project object */;
+}
