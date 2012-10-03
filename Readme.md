@@ -13,5 +13,8 @@ Use the NumberSwitcher control just like:
                                                        selectedNumber:23];
     zwitcher.delegate = self;
 ```
+Rendered like:
+
+<img src="https://bitbucket.org/pluxs/scrollswitcher/raw/d9f3ad4bd1cd/src/ScrollSwitcher/capture.png" alt="ScrollSwitcher" title="ScrollSwitcher" style="display:block; margin: 10px auto 30px auto;" class="center">
 
 Enjoy coding!
