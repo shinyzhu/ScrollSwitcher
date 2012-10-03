@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		765E6DC9161C92920099321E /* capture.png in Resources */ = {isa = PBXBuildFile; fileRef = 765E6DC8161C92920099321E /* capture.png */; };
 		7669605514B7E40000F85F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7669605414B7E40000F85F59 /* UIKit.framework */; };
 		7669605714B7E40000F85F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7669605614B7E40000F85F59 /* Foundation.framework */; };
 		7669605914B7E40000F85F59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7669605814B7E40000F85F59 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		765E6DC8161C92920099321E /* capture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capture.png; sourceTree = "<group>"; };
 		7669605014B7E40000F85F59 /* ScrollSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7669605414B7E40000F85F59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7669605614B7E40000F85F59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +96,7 @@
 				7669608414B9141100F85F59 /* NumberSwitcher.m */,
 				7669609314B9A62400F85F59 /* temp_bg.png */,
 				7669607F14B913BD00F85F59 /* temp_bg_mask.png */,
+				765E6DC8161C92920099321E /* capture.png */,
 			);
 			path = ScrollSwitcher;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				7669606B14B7E40000F85F59 /* ViewController.xib in Resources */,
 				7669608014B913BD00F85F59 /* temp_bg_mask.png in Resources */,
 				7669609414B9A62500F85F59 /* temp_bg.png in Resources */,
+				765E6DC9161C92920099321E /* capture.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
