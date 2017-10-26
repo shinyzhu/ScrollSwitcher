@@ -15,6 +15,6 @@ Use the NumberSwitcher control just like:
 ```
 Rendered like:
 
-![ScrollSwitcher](https://bitbucket.org/pluxs/scrollswitcher/raw/d9f3ad4bd1cd/src/ScrollSwitcher/capture.png "ScrollSwitcher")
+![ScrollSwitcher](src/ScrollSwitcher/capture.png "ScrollSwitcher")
 
 Enjoy coding!
